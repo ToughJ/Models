@@ -30,3 +30,65 @@ MIP - Integer optimal solution:  Objective = 6.1200000000e+003
 Solution time =    0.00 sec.  Iterations = 0  Nodes = 0
 Deterministic time = 0.01 ticks  (12.18 ticks/sec)
 
+
+Log started (V12.6.3.0) Mon Oct 22 13:22:55 2018
+
+
+Problem 'CoffeeShop.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 1 rows and 1 columns.
+Aggregator did 1 substitutions.
+Reduced LP has 4 rows, 10 columns, and 16 nonzeros.
+Presolve time = 0.00 sec. (0.01 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.000000
+
+Dual simplex - Optimal:  Objective = 2.7365760301e+005
+Solution time =    0.00 sec.  Iterations = 3 (0)
+Deterministic time = 0.01 ticks  (13.40 ticks/sec)
+
+
+Log started (V12.6.3.0) Mon Oct 22 13:48:10 2018
+
+
+Problem 'AirportRobots.lp' read.
+Read time = 0.00 sec. (0.00 ticks)
+Found incumbent of value 50592.000000 after 0.00 sec. (0.00 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4 rows, 8 columns, and 20 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4 rows, 8 columns, and 20 nonzeros.
+Reduced MIP has 0 binaries, 8 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.01 ticks)
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 4 threads.
+Root relaxation solution time = 0.00 sec. (0.01 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        50592.0000        0.0000           100.00%
+*     0     0      integral     0     6120.0000     6120.0000        3    0.00%
+Elapsed time = 0.02 sec. (0.04 ticks, tree = 0.00 MB, solutions = 2)
+
+Root node processing (before b&c):
+  Real time             =    0.02 sec. (0.04 ticks)
+Parallel b&c, 4 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.02 sec. (0.04 ticks)
+
+Solution pool: 2 solutions saved.
+
+MIP - Integer optimal solution:  Objective = 6.1200000000e+003
+Solution time =    0.02 sec.  Iterations = 3  Nodes = 0
+Deterministic time = 0.04 ticks  (2.60 ticks/sec)
+
